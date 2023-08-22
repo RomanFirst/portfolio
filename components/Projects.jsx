@@ -26,7 +26,7 @@ const Projects = () => {
 					<ProjectItem
 						title='Home Familia'
 						backgroundImg={shopImg}
-						projectUrl='shop-nine-gules.vercel.app'
+						projectUrl='https://shop-nine-gules.vercel.app'
 						technologies='React/Tailwind'
 					/>
 				</div>
