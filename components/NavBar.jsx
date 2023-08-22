@@ -138,13 +138,19 @@ const NavBar = () => {
 							</p>
 							<div className='flex items-center justify-between my-4 w-full sm:w-[88%]'>
 								<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-									<FaLinkedinIn />
+									<Link href='https://www.linkedin.com/in/raman-asalkhanau/'>
+										<FaLinkedinIn />
+									</Link>
 								</div>
 								<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-									<FaGithub />
+									<Link href='https://github.com/RomanFirst?tab=repositories'>
+										<FaGithub />
+									</Link>
 								</div>
 								<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-									<AiOutlineMail />
+									<Link href='mailto:raman.asalkhanau@onet.pl'>
+										<AiOutlineMail />
+									</Link>
 								</div>
 							</div>
 						</div>
