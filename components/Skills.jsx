@@ -13,10 +13,10 @@ const Skills = () => {
 						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../assets/skills/html.png'
+									src='/assets/skills/html.png'
 									width='64'
 									height='64'
-									alt='/'
+									alt='html'
 								/>
 							</div>
 							<div className='flex flex-col items-center justify center'>
@@ -29,10 +29,10 @@ const Skills = () => {
 						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../assets/skills/css.png'
+									src='/assets/skills/css.png'
 									width='64'
 									height='64'
-									alt='/'
+									alt='css'
 								/>
 							</div>
 							<div className='flex flex-col items-center justify center'>
@@ -45,10 +45,10 @@ const Skills = () => {
 						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../assets/skills/javascript.png'
+									src='/assets/skills/javascript.png'
 									width='64'
 									height='64'
-									alt='/'
+									alt='JS'
 								/>
 							</div>
 							<div className='flex flex-col items-center justify center'>
@@ -61,10 +61,10 @@ const Skills = () => {
 						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../assets/skills/react.png'
+									src='/assets/skills/react.png'
 									width='64'
 									height='64'
-									alt='/'
+									alt='react'
 								/>
 							</div>
 							<div className='flex flex-col items-center justify center'>
@@ -77,10 +77,10 @@ const Skills = () => {
 						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../assets/skills/tailwind.png'
+									src='/assets/skills/tailwind.png'
 									width='64'
 									height='64'
-									alt='/'
+									alt='tailwind'
 								/>
 							</div>
 							<div className='flex flex-col items-center justify center'>
@@ -93,10 +93,10 @@ const Skills = () => {
 						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../assets/skills/firebase.png'
+									src='/assets/skills/firebase.png'
 									width='64'
 									height='64'
-									alt='/'
+									alt='firebase'
 								/>
 							</div>
 							<div className='flex flex-col items-center justify center'>
@@ -109,10 +109,10 @@ const Skills = () => {
 						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../assets/skills/github.png'
+									src='/assets/skills/github.png'
 									width='64'
 									height='64'
-									alt='/'
+									alt='github'
 								/>
 							</div>
 							<div className='flex flex-col items-center justify center'>
@@ -125,10 +125,10 @@ const Skills = () => {
 						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
 								<Image
-									src='/../assets/skills/typescript.png'
+									src='/assets/skills/typescript.png'
 									width='64'
 									height='64'
-									alt='/'
+									alt='typeskript'
 								/>
 							</div>
 							<div className='flex flex-col items-center justify center'>

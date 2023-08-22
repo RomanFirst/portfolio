@@ -32,8 +32,8 @@ const NavBar = () => {
 			<div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
 				<Link href='/'>
 					<Image
-						src='/../assets/navLogo.png'
-						alt='/'
+						src='/assets/navLogo.png'
+						alt='logo'
 						width='80'
 						height='40'
 						className='cursor-pointer'
@@ -81,10 +81,10 @@ const NavBar = () => {
 					<div className='flex w-full items-center justify-between'>
 						<div>
 							<Image
-								src='/../assets/navLogo.png'
+								src='/assets/navLogo.png'
 								width='80'
 								height='30'
-								alt=''
+								alt='logo'
 							/>
 						</div>
 						<div
