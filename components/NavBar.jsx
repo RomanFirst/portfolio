@@ -1,16 +1,34 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 const NavBar = () => {
 	const [nav, setNav] = useState(false)
+	const [shadow, setShadow] = useState(false)
 
 	const handleNav = () => {
 		setNav(!nav)
 	}
+
+	useEffect(() => {
+		const handleShadow = () => {
+			if (window.scrollY >= 90) {
+				setShadow(true)
+			} else {
+				setShadow(false)
+			}
+		}
+		window.addEventListener('scroll', handleShadow)
+	}, [])
 	return (
-		<div className='fixed w-full h-20 shadow-xl z-[100]'>
+		<div
+			className={
+				shadow
+					? 'fixed w-full h-20 shadow-xl z-[100]'
+					: 'fixed w-full h-20  z-[100]'
+			}
+		>
 			<div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
 				<Link href='/'>
 					<Image
@@ -84,22 +102,34 @@ const NavBar = () => {
 					<div className='py-4 flex flex-col'>
 						<ul className='uppercase'>
 							<Link href='/'>
-								<li className='py-4 text-sm'>Home</li>
+								<li onClick={() => setNav(false)} className='py-4 text-sm'>
+									Home
+								</li>
+							</Link>
+							<Link href='/#about'>
+								<li onClick={() => setNav(false)} className='py-4 text-sm'>
+									About
+								</li>
+							</Link>
+							<Link href='/#skills'>
+								<li onClick={() => setNav(false)} className='py-4 text-sm'>
+									Skills
+								</li>
+							</Link>
+							<Link href='/#projects'>
+								<li onClick={() => setNav(false)} className='py-4 text-sm'>
+									Projects
+								</li>
 							</Link>
 							<Link href='/'>
-								<li className='py-4 text-sm'>About</li>
+								<li onClick={() => setNav(false)} className='py-4 text-sm'>
+									Resume
+								</li>
 							</Link>
-							<Link href='/'>
-								<li className='py-4 text-sm'>Skills</li>
-							</Link>
-							<Link href='/'>
-								<li className='py-4 text-sm'>Projects</li>
-							</Link>
-							<Link href='/'>
-								<li className='py-4 text-sm'>Resume</li>
-							</Link>
-							<Link href='/'>
-								<li className='py-4 text-sm'>Contact</li>
+							<Link href='/#contact'>
+								<li onClick={() => setNav(false)} className='py-4 text-sm'>
+									Contact
+								</li>
 							</Link>
 						</ul>
 						<div className='pt-[40px]'>
