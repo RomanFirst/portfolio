@@ -26,8 +26,8 @@ const Projects = () => {
 					<ProjectItem
 						title='Home Familia'
 						backgroundImg={shopImg}
-						projectUrl='https://sto-103-tau.vercel.app/'
-						technologies='React/TypeScript'
+						projectUrl='shop-nine-gules.vercel.app'
+						technologies='React/Tailwind'
 					/>
 				</div>
 			</div>
