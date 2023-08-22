@@ -32,7 +32,7 @@ const NavBar = () => {
 			<div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
 				<Link href='/'>
 					<Image
-						src='/../assets/NavLogo.png'
+						src='/../assets/navLogo.png'
 						alt='/'
 						width='80'
 						height='40'
