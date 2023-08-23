@@ -1,4 +1,5 @@
 import ProjectItem from '../components/ProjectItem'
+import chatImg from '../public/assets/projects/chat.png'
 import portfolioImg from '../public/assets/projects/portfolio.png'
 import shopImg from '../public/assets/projects/shop.png'
 import stoImg from '../public/assets/projects/sto-103.png'
@@ -12,22 +13,28 @@ const Projects = () => {
 				<h2 className='py-4'>What I've Built</h2>
 				<div className='grid md:grid-cols-2 gap-8'>
 					<ProjectItem
-						title='Garage 103'
-						backgroundImg={stoImg}
-						projectUrl='https://sto-103-tau.vercel.app/'
-						technologies='React/TypeScript'
-					/>
-					<ProjectItem
 						title='Portfolio UX/UI'
 						backgroundImg={portfolioImg}
 						projectUrl='https://portfolio-ux-ui.vercel.app/'
 						technologies='HTML/CSS/JS'
 					/>
 					<ProjectItem
+						title='Garage 103'
+						backgroundImg={stoImg}
+						projectUrl='https://sto-103-tau.vercel.app/'
+						technologies='React/TypeScript'
+					/>
+					<ProjectItem
 						title='Home Familia'
 						backgroundImg={shopImg}
 						projectUrl='https://shop-nine-gules.vercel.app'
 						technologies='React/Tailwind'
+					/>
+					<ProjectItem
+						title='ChatApp'
+						backgroundImg={chatImg}
+						projectUrl='https://chat-liard-gamma.vercel.app'
+						technologies='React/Tailwind/Firebase'
 					/>
 				</div>
 			</div>
