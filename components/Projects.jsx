@@ -1,7 +1,7 @@
 import ProjectItem from '../components/ProjectItem'
 import chatImg from '../public/assets/projects/chat.png'
 import portfolioImg from '../public/assets/projects/portfolio.png'
-import shopImg from '../public/assets/projects/shop.png'
+import quizImg from '../public/assets/projects/quiz.png'
 import stoImg from '../public/assets/projects/sto-103.png'
 const Projects = () => {
 	return (
@@ -25,10 +25,10 @@ const Projects = () => {
 						technologies='React/TypeScript'
 					/>
 					<ProjectItem
-						title='Home Familia'
-						backgroundImg={shopImg}
-						projectUrl='https://shop-nine-gules.vercel.app'
-						technologies='React/Tailwind'
+						title='Quiz App'
+						backgroundImg={quizImg}
+						projectUrl='https://quiz-three-mu.vercel.app/'
+						technologies='React/Redux'
 					/>
 					<ProjectItem
 						title='ChatApp'
